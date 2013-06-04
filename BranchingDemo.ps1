@@ -1,13 +1,5 @@
-# Cleanup any previous execution
-if (Test-Path .\BranchingDemo)
-{
-    Remove-Item -Recurse -Force .\BranchingDemo
-}
-
-# Create a git repo
-mkdir .\BranchingDemo
-cd .\BranchingDemo
-git init
+.\Clean.ps1 .\BranchingDemo
+.\Prep.ps1 .\BranchingDemo
 
 # Setup one commit on master
 touch README
