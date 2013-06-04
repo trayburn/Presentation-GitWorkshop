@@ -1,5 +1,5 @@
 .\Clean.ps1 .\LocalDevelopment
-.\Prep.ps1 .\LocalDevelopment
+.\Prep.ps1 LocalDevelopment
 
 # Setup one commit on master
 touch README

@@ -1,5 +1,5 @@
 .\Clean.ps1 .\BranchingDemo
-.\Prep.ps1 .\BranchingDemo
+.\Prep.ps1 BranchingDemo
 
 # Setup one commit on master
 touch README
