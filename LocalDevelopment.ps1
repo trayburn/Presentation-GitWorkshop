@@ -2,7 +2,7 @@
 .\Prep.ps1 LocalDevelopment
 
 # Setup one commit on master
-touch README
+echo $null > README
 git add .
 git commit -am "First Commit"
 

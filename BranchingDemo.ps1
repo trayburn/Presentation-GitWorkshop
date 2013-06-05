@@ -2,7 +2,7 @@
 .\Prep.ps1 BranchingDemo
 
 # Setup one commit on master
-touch README
+echo $null > README
 git add .
 git commit -am "First Commit"
 
@@ -10,13 +10,13 @@ git commit -am "First Commit"
 git checkout -b working
 
 # do work & commit
-touch file1.txt
+echo $null > file1.txt
 git add .
 git commit -am "working commit1"
-touch file2.txt
+echo $null > file2.txt
 git add .
 git commit -am "working commit2"
-touch file3.txt
+echo $null > file3.txt
 git add .
 git commit -am "working commit3"
 
@@ -27,13 +27,13 @@ git checkout master
 git checkout -b feature
 
 # do work & commit
-touch file4.txt
+echo $null > file4.txt
 git add .
 git commit -am "feature commit1"
-touch file5.txt
+echo $null > file5.txt
 git add .
 git commit -am "feature commit2"
-touch file6.txt
+echo $null > file6.txt
 git add .
 git commit -am "feature commit3"
 
@@ -45,15 +45,15 @@ git checkout master
 git checkout -b bugfix
 
 # do work & commit
-touch file1.txt
+echo $null > file1.txt
 "Hello World" > file1.txt
 git add .
 git commit -am "bugfix commit1"
-touch file2.txt
+echo $null > file2.txt
 "Hello World" > file2.txt
 git add .
 git commit -am "bugfix commit2"
-touch file3.txt
+echo $null > file3.txt
 "Hello World" > file3.txt
 git add .
 git commit -am "bugfix commit3"
