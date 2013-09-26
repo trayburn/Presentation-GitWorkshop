@@ -41,5 +41,5 @@ git rebase --continue
 # back to master
 git checkout master
 
-# New merge bugfix
+# Now merge bugfix
 git merge bugfix
